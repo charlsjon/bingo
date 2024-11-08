@@ -1,2 +1,2 @@
-#bingo
-##activity project when learning JS
+# bingo
+## activity project when learning JS
