@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="/img-source/bingo.png" type="image/x-icon">
+  <title>Bingo</title>
+</head>
+<body>
+
+  
+  <div class="container">
+
+
+    <div class="score-container">
+
+      <div class="score-wrapper">
+        <div class="sa-letra">
+          <div class="random" id="random-letter">
+            <h1 class="winning-letter"></h1>
+          </div>
+          <div class="random" id="random-number">
+            <h1 class="winning-number"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="wrapper">
+
+      <div class="bingo-content">
+        <div class="content">
+          <div class="letter" id="letter-B">
+            <h1>B</h1>
+          </div>
+          <div class="letter" id="letter-I">
+            <h1>I</h1>
+          </div>
+          <div class="letter" id="letter-N">
+            <h1>N</h1>
+          </div>
+          <div class="letter" id="letter-G">
+            <h1>G</h1>
+          </div>
+          <div class="letter" id="letter-O">
+            <h1>O</h1>
+          </div>
+        
+          <div class="letter-val" id="letter-B1">
+            <h1 class="value-B1"></h1>
+          </div>
+          <div class="letter-val" id="letter-B2">
+            <h1 class="value-B2"></h1>
+          </div>
+          <div class="letter-val" id="letter-B3">
+            <h1 class="value-B3"></h1>
+          </div>
+          <div class="letter-val" id="letter-B4">
+            <h1 class="value-B4"></h1>
+          </div>
+          <div class="letter-val" id="letter-B5">
+            <h1 class="value-B5"></h1>
+          </div>
+        
+          <div class="letter-val" id="letter-I1">
+            <h1 class="value-I1"></h1>
+          </div>
+          <div class="letter-val" id="letter-I2">
+            <h1 class="value-I2"></h1>
+          </div>
+          <div class="letter-val" id="letter-I3">
+            <h1 class="value-I3"></h1>
+          </div>
+          <div class="letter-val" id="letter-I4">
+            <h1 class="value-I4"></h1>
+          </div>
+          <div class="letter-val" id="letter-I5">
+            <h1 class="value-I5"></h1>
+          </div>
+        
+          <div class="letter-val" id="letter-N1">
+            <h1 class="value-N1"></h1>
+          </div>
+          <div class="letter-val" id="letter-N2">
+            <h1 class="value-N2"></h1>
+          </div>
+          <div class="free">
+            <h1 class="value-free" id="free">FREE</h1>
+          </div>
+          <div class="letter-val" id="letter-N4">
+            <h1 class="value-N4"></h1>
+          </div>
+          <div class="letter-val" id="letter-N5">
+            <h1 class="value-N5"></h1>
+          </div>
+        
+          <div class="letter-val" id="letter-G1">
+            <h1 class="value-G1"></h1>
+          </div>
+          <div class="letter-val" id="letter-G2">
+            <h1 class="value-G2"></h1>
+          </div>
+          <div class="letter-val" id="letter-G3">
+            <h1 class="value-G3"></h1>
+          </div>
+          <div class="letter-val" id="letter-G4">
+            <h1 class="value-G4"></h1>
+          </div>
+          <div class="letter-val" id="letter-G5">
+            <h1 class="value-G5"></h1>
+          </div>
+        
+          <div class="letter-val" id="letter-O1">
+            <h1 class="value-O1"></h1>
+          </div>
+          <div class="letter-val" id="letter-O2">
+            <h1 class="value-O2"></h1>
+          </div>
+          <div class="letter-val" id="letter-O3">
+            <h1 class="value-O3"></h1>
+          </div>
+          <div class="letter-val" id="letter-O4">
+            <h1 class="value-O4"></h1>
+          </div>
+          <div class="letter-val" id="letter-O5">
+            <h1 class="value-O5"></h1>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <div class="button-holder">
+      <div class="start-holder">
+        <button class="btn" id="start_btn">
+          <h1>START</h1>
+        </button>
+        </div>
+      <div class="draw-holder">
+        <button class="btn" id="draw-btn">
+          <h1>DRAW</h1>
+        </button>
+        </div>
+    </div>
+
+  </div>
+  
+
+  <div class="draw-container">
+
+    <div class="draw-button">
+      <img src="/img-source/menu.png" alt="">
+    </div>
+
+    <div class="draw-wrapper">
+      <div class="for-B">
+        <h1 class="nabolang-B"></h1>
+      </div>
+      <div class="for-I">
+        <h1 class="nabolang-I"></h1>
+      </div>
+      <div class="for-N">
+        <h1 class="nabolang-N"></h1>
+      </div>
+      <div class="for-G">
+        <h1 class="nabolang-G"></h1>
+      </div>
+      <div class="for-O">
+        <h1 class="nabolang-O"></h1>
+      </div>
+
+      <div class="return-btn-container">
+        <button id="return-btn">
+          <h1>RETURN</h1>
+        </button>
+      </div>
+    </div>
+ 
+
+  </div>
+
+  <div class="winner-container">
+    <div class="winner-wrapper">
+      <div class="congrats">
+          <img src="/img-source/trophy-removebg-preview.png" alt="trophy">
+          <h1>You Won!!!</h1>
+      </div>
+      <button id="play-again-btn"><h1>PLAY AGAIN</h1></button>
+    </div>
+  </div>
+
+  <div class="enter-name">
+    <div class="name">
+      <h1 id="text-shake">Enter Your Name</h1>
+      <input type="text" class="text" required id="text">
+    </div>
+    <button class="enter-btn" id="enter-btn">
+      <H1>ENTER</H1>
+    </button>
+  </div>
+
+  </div>
+</body>
+<script src="/script.js"></script>
+</html>
